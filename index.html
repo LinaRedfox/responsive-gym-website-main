@@ -1,74 +1,254 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== REMIXICON ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <title>Responsive gym website - Bedimcode</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+    <title>Responsive gym website - lina_redfoxx</title>
+</head>
 
-            <!--==================== LOGOS ====================-->
-            <section class="logos section">
-                
-            </section>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                <img src="assets/img/logo-nav.png" alt="logo image">PerfectBodyMaker
+            </a>
 
-            <!--==================== PROGRAM ====================-->
-            <section class="program section" id="program">
-                
-            </section>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#program" class="nav_link">Program</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#choose" class="nav_link">Choose Us</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#pricing" class="nav_link">Pricing</a>
+                    </li>
 
-            <!--==================== CHOOSE US ====================-->
-            <section class="choose section" id="choose">
-                
-            </section>
+                    <div class="nav_link">
+                        <a href="#footer" class="button nav_button">
+                            Register Now
+                        </a>
+                    </div>
+                </ul>
 
-            <!--==================== PRICING ====================-->
-            <section class="pricing section" id="pricing">
-                
-            </section>
+                <div class="nav_close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
 
-            <!--==================== CALCULATE ====================-->
-            <section class="calculate section">
-                
-            </section>
-        </main>
+            <!-- Toggle button -->
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section" id="footer">
-            
-        </footer>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <h2 class="home_subtitle">MAKE YOUR</h2>
+                    <h1 class="home_title">BODY SHAPE</h1>
+                    <p class="home_description">
+                        Here we will help you to shape and build your ideal
+                        body and live your life to the fullest.
+                    </p>
+                    <a href="#" class="button button_flex">
+                        Get Started <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
 
-        <!--========== SCROLL UP ==========-->
+                <div class="home_images">
+                    <img src="assets/img/home-img.png" alt="home image" class="home_img">
+
+                    <div class="home_triangle home_triangle-3"></div>
+                    <div class="home_triangle home_triangle-2"></div>
+                    <div class="home_triangle home_triangle-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+            <div class="logos_container container grid">
+                <img src="assets/img/logo1.png" alt="logo image" class="logos_img">
+                <img src="assets/img/logo2.png" alt="logo image" class="logos_img">
+                <img src="assets/img/logo3.png" alt="logo image" class="logos_img">
+                <img src="assets/img/logo4.png" alt="logo image" class="logos_img">
+            </div>
+        </section>
+
+        <!--==================== PROGRAM ====================-->
+        <section class="program section" id="program">
+            <div class="container">
+                <div class="section_data">
+                    <h2 class="section_subtitle">Our Program</h2>
+                    <div class="section_titles">
+                        <h1 class="section_title-border">BUILD YOUR</h1>
+                        <h1 class="section_title">BEST BODY</h1>
+                    </div>
+                </div>
+
+                <div class="program_container grid">
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="assets/img/program1.png" alt="program img" class="program_img">
+                        </div>
+
+                        <h3 class="program_title">Flex Muscle</h3>
+
+                        <p class="program_description">
+                            Creating tension that's temporarily making the muscle
+                            fibers smaller or contracted.
+                        </p>
+
+                        <a href="#" class="program_button"><i class="ri-arrow-right-line"></i></a>
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="assets/img/program2.png" alt="program img" class="program_img">
+                        </div>
+
+                        <h3 class="program_title">Cardio Exercise</h3>
+
+                        <p class="program_description">
+                            Exercise your heart rate up and keeps it
+                            up for a prolonged period of time.
+                        </p>
+
+                        <a href="#" class="program_button"><i class="ri-arrow-right-line"></i></a>
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="assets/img/program3.png" alt="program img" class="program_img">
+                        </div>
+
+                        <h3 class="program_title">Basic Yoga</h3>
+
+                        <p class="program_description">
+                            Diaphragmatic this is the most common breathing
+                            technique you'll find in yoga.
+                        </p>
+
+                        <a href="#" class="program_button"><i class="ri-arrow-right-line"></i></a>
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="assets/img/program4.png" alt="program img" class="program_img">
+                        </div>
+
+                        <h3 class="program_title">Weight Lifting</h3>
+
+                        <p class="program_description">
+                            Attempts a maximum weight single lift of a
+                            barbell loaded with weight plates.
+                        </p>
+
+                        <a href="#" class="program_button"><i class="ri-arrow-right-line"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CHOOSE US ====================-->
+        <section class="choose section" id="choose">
+            <div class="choose_overflow">
+                <div class="choose_container container grid">
+                    <div class="choose_content">
+                        <div class="section_data">
+                            <h2 class="section_subtitle">Best Reason</h2>
+                            <div class="section_titles">
+                                <h1 class="section_title-border">WHY</h1>
+                                <h1 class="section_title">CHOOSE US?</h1>
+                            </div>
+                        </div>
+
+                        <p class="choose_description">
+                            Choose your favorite class and start now. Remember the
+                            only bad workout is the one you didn't do.
+                        </p>
+
+                        <div class="choose_data">
+                            <div class="choose_group">
+                                <h3 class="choose_number">200+</h3>
+                                <p class="choose_subtitle">Total Members</p>
+                            </div>
+                            <div class="choose_group">
+                                <h3 class="choose_number">50+</h3>
+                                <p class="choose_subtitle">Best trainers</p>
+                            </div>
+                            <div class="choose_group">
+                                <h3 class="choose_number">25+</h3>
+                                <p class="choose_subtitle">Programs</p>
+                            </div>
+                            <div class="choose_group">
+                                <h3 class="choose_number">100+</h3>
+                                <p class="choose_subtitle">Awards</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="choose_images">
+                        <img src="assets/img/choose-img.png" alt="choose image" class="choose_img">
+
+                        <div class="choose_triangle choose_triangle-1"></div>
+                        <div class="choose_triangle choose_triangle-2"></div>
+                        <div class="choose_triangle choose_triangle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h1 class="section_subtitle"><br><br>WEBSITE IN PROGRESS...</h1>
+
+        <!--==================== PRICING ====================-->
+        <section class="pricing section" id="pricing">
+
+        </section>
+
+        <!--==================== CALCULATE ====================-->
+        <section class="calculate section">
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" id="footer">
+
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
 
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
 
-        <!--=============== EMAIL JS ===============-->
-        
-        
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--=============== EMAIL JS ===============-->
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
