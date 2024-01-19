@@ -33,15 +33,6 @@ const scrollHeader = () => {
 
 window.addEventListener('scroll', scrollHeader)
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SHOW SCROLL UP ===============*/
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
-
-
 /*=============== CALCULATE JS ===============*/
 const calculateForm = document.getElementById('calculate-form'),
     calculateCm = document.getElementById('calculate-cm'),
@@ -168,7 +159,7 @@ window.addEventListener('scroll', scrollActive)
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
     const scrollUp = document.getElementById('scroll-up')
-    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
+    this.scrollY >= 300 ? scrollUp.classList.add('show-scroll')
     : scrollUp.classList.remove('show-scroll')
 }
 
